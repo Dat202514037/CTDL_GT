@@ -1,16 +1,16 @@
 #include<stdio.h>
 
-void chuyen_dia(int n, char cot_A, char cot_B, char cot_C)
+void chuyen_dia(int n, char cot_nguon, char cot_dich, char cot_tg)
 {
     if(n == 1)
     {
-        printf("Chuyen dia %d tu cot %c sang cot %c\n", n, cot_A, cot_B);
+        printf("Chuyen dia %d tu cot %c sang cot %c\n", n, cot_nguon, cot_dich);
     }
     else
     {
-        chuyen_dia(n-1, cot_A, cot_C, cot_B);
-        printf("chuyen dia %d tu cot %c sang cot %c\n", n, cot_A, cot_B);
-        chuyen_dia(n - 1, cot_C, cot_B, cot_A);
+        chuyen_dia(n-1, cot_nguon, cot_tg, cot_dich);
+        printf("chuyen dia %d tu cot %c sang cot %c\n", n, cot_nguon, cot_dich);
+        chuyen_dia(n - 1, cot_tg, cot_dich, cot_nguon);
     }
 };
 
