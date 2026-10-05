@@ -1,8 +1,5 @@
 Bài toán Tháp Hà Nội
-    Bài toán: chuyển chồng đĩa từ A sang B
-        Mỗi lần chỉ được chuyển 1 đĩa
-        Không được đĩa to trên đĩa nhỏ, dù chỉ tạm thời
-        Được phép chuyển qua một cột trung gian C
+    Bài toán: chuyển chồng đĩa từ A sang B, mỗi lần chỉ được chuyển 1 đĩa, Không được đĩa to trên đĩa nhỏ, dù chỉ tạm thời, Được phép chuyển qua một cột trung gian C
 
     Các bước thực hiện đệ quy:
         Giả sử cột A ban đầu có n đĩa 
