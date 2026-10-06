@@ -3,10 +3,10 @@
 ## Mô tả bài toán
 
 - **Input:** 
-  - Số lượng phần tử trong mảng (\(n\)).
+  - Số lượng phần tử trong mảng n.
   - Giá trị của từng phần tử trong mảng.
 - **Output:** 
-  - Lần lượt các bước thực hiện sắp xếp đến khi toàn bộ mảng được sắp xếp theo thứ tự tăng dần.
+  - Lần lượt các bước thực hiện sắp xếp.
 
 
 ## Test case
