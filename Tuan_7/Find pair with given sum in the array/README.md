@@ -11,7 +11,9 @@
 - Khởi tạo vòng lặp trong với biến đếm j chạy từ i + 1 đến n - 1 (Bắt đầu từ i + 1 giúp tránh việc so sánh một phần tử với chính nó và loại bỏ các cặp bị trùng lặp ngược chiều).
 - In ra màn hình các cặp số đã tìm được, cập nhật biến đếm count.
 - Nếu hết hai vòng lặp mà count vẫn bằng 0 thì in ra "Pair not found"
-- **Độ phức tạp thuật toán O($n^2$)**
+<br>
+
+> **Độ phức tạp thuật toán:** $O(n^2)$
 
 ## Test case
 ### Case 1:
