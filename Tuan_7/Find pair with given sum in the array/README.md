@@ -11,7 +11,7 @@
 - Khởi tạo vòng lặp trong với biến đếm j chạy từ i + 1 đến n - 1 (Bắt đầu từ i + 1 giúp tránh việc so sánh một phần tử với chính nó và loại bỏ các cặp bị trùng lặp ngược chiều).
 - In ra màn hình các cặp số đã tìm được, cập nhật biến đếm count.
 - Nếu hết hai vòng lặp mà count vẫn bằng 0 thì in ra "Pair not found"
-- Độ phức tạp thuật toán O(n^2)
+- **Độ phức tạp thuật toán O($n^2$)**
 
 ## Test case
 ### Case 1:
@@ -26,6 +26,7 @@ tong = 9
 Pair found (3, 6)
 Pair found (5, 4)
 ```
+---
 ### Case 2:
 #### Input:
 ```
@@ -38,6 +39,7 @@ tong = 6
 Pair found (2, 4)
 Pair found (2, 4)
 ```
+---
 ### Case 3:
 #### Input:
 ```
@@ -47,7 +49,6 @@ tong = 15
 ```
 #### Output:
 ```
-Pair found (2, 4)
-Pair found (2, 4)
+Pair not found
 ```
 
