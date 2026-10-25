@@ -23,29 +23,28 @@ nhap tung phan tu cho mang: 1 2 3 4 4
 ```
 #### Output:
 ```
-Pair found (3, 6)
-Pair found (5, 4)
+The duplicate element is: 4
 ```
+---
 ### Case 2:
 #### Input:
 ```
-nhap so phan tu cua mang: 7
-nhap tung phan tu cho mang: 8 3 6 2 5 2 4
-tong = 6
+nhap so phan tu cua mang: 5
+nhap tung phan tu cho mang: 1 1 2 2 3
 ```
 #### Output:
 ```
-Pair found (2, 4)
-Pair found (2, 4)
+The duplicate element is: 1
+The duplicate element is: 2
 ```
+---
 ### Case 3:
 #### Input:
 ```
-nhap so phan tu cua mang: 7
-nhap tung phan tu cho mang: 8 3 6 2 5 2 4
-tong = 15
+nhap so phan tu cua mang: 5
+nhap tung phan tu cho mang: 1 2 3 4 5
 ```
 #### Output:
 ```
-pair not found
+No duplicate elements found
 ```
