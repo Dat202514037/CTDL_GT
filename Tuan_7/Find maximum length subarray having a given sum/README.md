@@ -6,7 +6,7 @@
     - Số nguyên $sum$: tổng cần tìm.
 - Đầu ra:
     - In ra dãy con liên tiếp có độ dài lớn nhất sao cho tổng các phần tử bằng sum.
-    - Nếu không tìm thấy dãy con nào thỏa mãn, in ra thông báo $subarray not found$.
+    - Nếu không tìm thấy dãy con nào thỏa mãn, in ra thông báo "subarray not found".
 
 ## Mô tả giải thuật
 - Nhập số phần tử $n$, các phần tử của mảng a và tổng cần tìm $sum$.
@@ -40,7 +40,7 @@ nhap tong: 8
 ```
 nhap so phan tu cua mang: 9
 nhap tung phan tu cho mang: 5 6 -5 5 3 5 3 -2 0 
-nhap tong: 8
+nhap tong: 30
 ```
 #### Output:
 ```
