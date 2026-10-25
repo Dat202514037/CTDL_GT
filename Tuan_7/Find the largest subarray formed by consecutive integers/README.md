@@ -38,22 +38,10 @@ nhap tung phan tu cho mang: 2 0 2 1 4 3 1 0
 ### Case 2:
 #### Input:
 ```
-nhap so phan tu cua mang: 5
-nhap tung phan tu cho mang: 1 1 2 2 3
+nhap so phan tu cua mang: 8
+nhap tung phan tu cho mang: 2 0 2 5 1 4 0 7
 ```
 #### Output:
 ```
-The duplicate element is: 1
-The duplicate element is: 2
-```
----
-### Case 3:
-#### Input:
-```
-nhap so phan tu cua mang: 5
-nhap tung phan tu cho mang: 1 2 3 4 5
-```
-#### Output:
-```
-No duplicate elements found
+subarray not found
 ```
